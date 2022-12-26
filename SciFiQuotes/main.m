@@ -10,6 +10,7 @@
 
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
+
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES);
     NSString *desktopPath = [paths objectAtIndex:0];
     SFApp *app = [[SFApp alloc] initWithFile:[desktopPath stringByAppendingPathComponent:@"quotes.txt"]];

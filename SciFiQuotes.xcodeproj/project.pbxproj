@@ -31,7 +31,7 @@
 		36EA085C2958E1CC001CBEA1 /* SFApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFApp.m; sourceTree = "<group>"; };
 		36EA085F2958E6CD001CBEA1 /* SFQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFQuote.h; sourceTree = "<group>"; };
 		36EA08602958E6CD001CBEA1 /* SFQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQuote.m; sourceTree = "<group>"; };
-		36EA0862295A3B69001CBEA1 /* quotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quotes.txt; sourceTree = "<group>"; };
+		36EA0865295A5C1C001CBEA1 /* quotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quotes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				36EA085C2958E1CC001CBEA1 /* SFApp.m */,
 				36EA085F2958E6CD001CBEA1 /* SFQuote.h */,
 				36EA08602958E6CD001CBEA1 /* SFQuote.m */,
-				36EA0862295A3B69001CBEA1 /* quotes.txt */,
+				36EA0865295A5C1C001CBEA1 /* quotes.txt */,
 			);
 			path = SciFiQuotes;
 			sourceTree = "<group>";
