@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		36EA08532958E006001CBEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EA08522958E006001CBEA1 /* main.m */; };
+		36EA085D2958E1CC001CBEA1 /* SFApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EA085C2958E1CC001CBEA1 /* SFApp.m */; };
+		36EA08612958E6CD001CBEA1 /* SFQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EA08602958E6CD001CBEA1 /* SFQuote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		36EA084F2958E006001CBEA1 /* SciFiQuotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SciFiQuotes; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EA08522958E006001CBEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36EA085B2958E1CC001CBEA1 /* SFApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFApp.h; sourceTree = "<group>"; };
+		36EA085C2958E1CC001CBEA1 /* SFApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFApp.m; sourceTree = "<group>"; };
+		36EA085F2958E6CD001CBEA1 /* SFQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFQuote.h; sourceTree = "<group>"; };
+		36EA08602958E6CD001CBEA1 /* SFQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQuote.m; sourceTree = "<group>"; };
+		36EA0862295A3B69001CBEA1 /* quotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quotes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				36EA08522958E006001CBEA1 /* main.m */,
+				36EA085B2958E1CC001CBEA1 /* SFApp.h */,
+				36EA085C2958E1CC001CBEA1 /* SFApp.m */,
+				36EA085F2958E6CD001CBEA1 /* SFQuote.h */,
+				36EA08602958E6CD001CBEA1 /* SFQuote.m */,
+				36EA0862295A3B69001CBEA1 /* quotes.txt */,
 			);
 			path = SciFiQuotes;
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EA08612958E6CD001CBEA1 /* SFQuote.m in Sources */,
+				36EA085D2958E1CC001CBEA1 /* SFApp.m in Sources */,
 				36EA08532958E006001CBEA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
